@@ -1,0 +1,38 @@
+/*
+ Theme Name:   Soldiers and Soldiering In Britain Child Theme
+ Theme URI:    
+ Description:  Child theme to incorporate custom author and member pages
+ Author:       Steve Honeyman<s.honeyman@leeds.ac.uk>>
+ Author URI:  
+ Template:     UoL1.2
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         
+ Text Domain:  
+*/
+
+
+/* ================== STYLES FOR AUTHOR CONTAINERS ============================ */
+
+.author-container {
+	width: 19%;
+	height: 250px;
+	background-color: #f9f8f6;
+	float: left;
+	padding: 0 0 0 1%;
+	margin: 0 16px 24px 0;
+	font-size: 11px;
+	}
+
+.author-container:hover {
+	background-color: #f3f3ef; 
+	}	
+
+/* ================== CLEARFIX ============================ */	
+
+.group:after {
+	  content: " ";
+	  display: table;
+	  clear: both;
+	}	
